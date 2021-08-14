@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    border: 2px solid red;
+}
+
+.student_login{
+    margin: 50px;
+    border: 2px solid gray;
+    
+    padding: 50px;
+    background-color: lightgray;
+}
+.student_login:hover{
+    box-shadow: 2px solid gray;
+    background-color: gray;
+}
+
+
+
+.admin_login{
+    margin: 50px;
+    border: 2px solid gray;
+    box-shadow: 2px solid gray;
+    padding: 50px;
+    background-color: lightgray;
+}
+
+.admin_login:hover{
+    box-shadow: 5px solid gray;
+    background-color: gray;
+}
+
+.admin{
+    border: 2px solid red;
+    margin: 100px;
+    padding: 100px;
+    text-align: center;
+}
+
+.admin div{
+    margin-top: 30px;
+}
+.admin_btn{
+    background-color: blue;
+    padding: 10px 20px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    color: white;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
